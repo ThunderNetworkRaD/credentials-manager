@@ -1,10 +1,28 @@
 {
-  "name": "@thundernetworkrad/template-npm-packages",
-  "version": "0.0.1",
-  "description": "A Public Template for npm",
-  "main": "index.js",
-  "repository": "https://github.com/ThunderNetworkRaD/template-npm-packages",
-  "author": "ThunderNetworkRaD | Killer Boss Original",
-  "license": "Mozilla Public License 2.0",
-  "private": false
+  "name": "credentials-manager",
+  "version": "2023.01.26",
+  "description": "A simple Credentials Manager",
+  "main": "build//index.ts",
+  "scripts": {
+    "test": "npm build && npm start",
+    "start": "node .",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThunderNetworkRaD/credentials-manager.git"
+  },
+  "author": "ThunderNetworkRaD | KillerBossOriginal",
+  "license": "SEE LICENSE IN license.md",
+  "bugs": {
+    "url": "https://github.com/ThunderNetworkRaD/credentials-manager/issues"
+  },
+  "homepage": "https://github.com/ThunderNetworkRaD/credentials-manager#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@thundernetworkrad/std": "^2023.1.25",
+    "@thundernetworkrad/map.db": "^2022.12.29"
+  }
 }
